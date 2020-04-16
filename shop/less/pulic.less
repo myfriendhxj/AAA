@@ -1,0 +1,361 @@
+@charset 'utf-8';
+a{
+				text-decoration: none;
+				
+			}
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+.box{
+	width: 100%;
+	
+}
+.box .header{
+	width: 100%;
+	.top{
+		height: 80px;
+		width: 100%;
+		background: red;
+		box-sizing: border-box;
+		a{
+			
+			display: block;
+			margin: 0px 156px;
+			width: 1200px;
+			height: 80px;
+			// &:hover{
+			// 	border: 1px solid blue;
+			// }
+		}
+		img{
+			
+			width: 1200px;
+			height: 80px;
+			
+		}
+	}
+	.msg{
+		width: 100%;
+		height: 33px;
+		border-bottom: 1px solid #B5B5B5;
+		color: #999;
+		font-size: 12px;
+		font-weight: normal;
+		line-height: 32px;
+		>p{
+			margin-left: 150px;
+			color: #999;
+			font-size: 12px;
+			font-weight: normal;
+			line-height: 32px;
+			float: left;
+		}
+		>div{
+			float: left;
+			margin-left: 100px;
+			>ul{
+				>li{
+					float: left;
+					margin-right: 30px;
+					position: relative;
+					cursor: pointer;
+					a{
+						color: #999;
+						font-size: 12px;
+						text-decoration: none;
+					}
+					ul{
+						 display: none;
+						position: absolute;
+						top: 25px;
+						width: 75px;
+						color: #000;
+						background:white;
+						    z-index: 5;
+						li{
+							// width: 30px;
+							// font-size: 15px;
+							// line-height: 15px;
+							line-height: 25px;
+							
+							a{
+								text-decoration: none;
+								color: #000000;
+								font-size: 12px;
+								// cursor: hand;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.box .ser{
+	width: 1200px;
+	height: 60px;
+	// background: red;
+	margin: 20px 156px;
+	&>div{
+		float: left;
+	}
+	.formSer{
+		position: relative;
+		width: 380px;
+		height: 34px;
+		margin-top: 10px;
+		input:nth-of-type(1){
+			position: absolute;
+			    height: 24px;
+			    margin-right: 8px;
+			    padding: 5px 0 5px 5px;
+			    float: left;
+			    border: 1px solid red;
+			    display: block;
+			    color: #666;
+			    line-height: 22px;
+				width: 290px;
+				top:50%;
+		}
+		button{
+				    padding: 0 12px;
+				    margin: 0;
+				    width: 80px;
+				    height: 38px;
+				    line-height: 32px;
+				    text-align: right;
+				    font-family: "微软雅黑", "宋体", "verdana";
+				    font-size: 14px;
+				    color: #fff;
+				    background: #d51819;
+					cursor: pointer;
+					position: absolute;
+					top: 47%;
+					left: 296px;
+				
+		}
+	}
+	.cloth{
+			position: relative;
+			width: 380px;
+			height: 34px;
+			margin-top: 30px;
+			margin-left: 20px;
+		a{
+			text-decoration: none;
+			color: #666;
+			font-size: 12px;
+			
+		}
+		span{
+			display: inline-block;	
+			margin-left: 10px;
+			font-size: 12px;
+			color: #666;
+			}
+	}
+	.shopBag{
+			width: 120px;
+		    height: 55px;
+		    //margin-left: 15px;
+		    padding-left: 30px;
+		    float: left;
+		    display: block;
+			background: url(//s.banggo.com/pub7/images/mbshop/veoimg/Veo_mbshop_spirit_pic.png?t=20160603) 0 -410px no-repeat;
+			a{
+				font: 400 14px "微软雅黑","宋体";
+				    margin-top: 27px;
+				    float: left;
+					color: #000000;
+					b{
+						color: red;
+					}
+			}
+	}
+}
+.nav_bot{
+	width: 100%;
+	background: url(../img/mbshop_bottom_guide.png) repeat-x;
+	overflow: hidden;
+	.bot_guide{
+		overflow: hidden;
+		width: 1200px;
+		margin: 0 auto;
+		padding-top: 11px;
+		padding-bottom: 30px;
+		border-bottom: 1px solid #000;
+		dl{
+			width: 200px;
+			float: left;
+			dt{
+			width: auto;
+			clear: right;
+			font: 700 14px "微软雅黑","黑体","微软雅黑","宋体",verdana;
+			padding-bottom: 10px;
+			margin-bottom: 5px;
+			color: #231815;
+			}
+			dd{
+				width: 200px;
+				padding-top: 13px;
+				a{
+					font: 12px "微软雅黑","黑体","微软雅黑","宋体",verdana;
+					    color: #231815;
+					
+				}
+			}
+		}
+	}
+	.copy{
+		width: 1200px;
+		overflow: hidden;
+		margin: 10px auto;
+		p{
+				margin: 0 auto;
+			    width: 1200px;
+			    text-align: center;
+			    float: none;
+			    display: block;
+			    font: 700 14px "微软雅黑","黑体","微软雅黑","宋体",verdana,verdana;
+			    color: #787878;
+		}
+		ul{
+			margin: 20px auto;
+			overflow: hidden;
+			width: 460px;
+			li{
+				float: left;
+			}
+		}
+	}
+}
+.backTop{
+	    width: 55px;
+	    height: auto;
+	    display: block;
+	    position: fixed;
+	    right: 0;
+	    bottom: 30px;
+		.batop{
+			width: 55px;
+			height: 90px;
+			background: url(//s.banggo.com/pub7/images/mbshop/veoimg/Veo_mbshop_spirit_pic.png?t=20160603) 0 -1060px no-repeat;
+			display: none;
+		}
+		.kefu{
+			    width: 55px;
+			    height: 55px;
+				background: url(//s.banggo.com/pub7/images/mbshop/common/online_service.png?t=20160603) no-repeat;
+		}
+	}
+.box .shop-nav{
+	float: left;
+	width: 1200px;
+	 // height: 64px;
+	margin: 0px 156px;
+	>ul{
+		list-style: none;
+		float: left;
+		margin-left: 0;
+		position: relative;
+		width: 560px;
+		>li{
+			float: left;
+			padding-right: 40px;
+			
+			&>a{
+				text-decoration: none;
+				color: #666;
+				font-size: 16px;
+				display: block;
+				line-height: 44px;
+			}
+			.lis{
+				position: absolute;
+				//min-width: 380px;
+				 //top: 30px;
+				display: none;
+				background: #fff;
+				 overflow: hidden;
+				 box-shadow: 0 0 5px #ccc;
+				opacity: 1;
+				z-index: 111;
+				 >ul{
+					 float: left;
+					 margin-top: 10px;
+					 overflow: hidden;
+					 background: white;
+					 // 
+					 .ti{
+					 	color: red;
+						// li{
+						// 	padding-top: 20px;
+						// }
+					 }
+					 >li{
+						 margin-right: 20px;
+						 float: left;
+						 //margin-top: 10px;
+						 // padding-top: 20px;
+						 a{
+							 color: #666666;
+							 
+							 display: block;
+							 font-size: 13px;
+							 margin-top: 15px;
+						 }
+					 }
+				 }
+				
+			}
+		}
+	}
+	.ul2{
+		width: 640px;
+		>li{
+			padding-right: 10px;
+		}
+		img{
+			
+		}
+	}
+}	
+.xinxi{
+	width: 1200px;
+	margin: 20px auto;
+	overflow: hidden;
+	clear: both;
+	&>ul{
+		list-style: none;
+		float: left;
+		
+		&>li{
+			float: left;
+		
+		}
+	}
+	&>div{
+		float: left;
+		width: 359px;
+		height: 242px;
+	}
+	.bot{
+		ul{
+			list-style: none;
+			background: #919191;
+			//overflow: hidden;
+			li{
+				float: left;
+				width: 33%;
+				padding-top: 10px;
+				img{
+					
+				}
+			}
+		}
+	}
+}

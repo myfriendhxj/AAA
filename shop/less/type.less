@@ -1,0 +1,348 @@
+@charset 'utf-8';
+a{
+	color: #000000;
+}
+.seType{
+	width: 1200px;
+	margin: 20px auto;
+	overflow: hidden;
+	&>span{
+		float: left;
+		margin-left: 20px;
+	}
+	a{
+		font: 400 12px "微软雅黑","宋体",verdana;
+	}
+	div{
+		float: left;
+	
+		margin-left: 10px;
+		background-color: #fff;
+		border: 1px solid #ccc;
+		input{
+			border: none;
+			outline: none;
+			height: 20px;
+			float: left;
+		}
+		button{
+			width: 20px;
+			height: 20px;
+			margin-top: 3px;
+			float: left;
+			display: block;
+			border: none;
+			cursor: pointer;
+			background: url(//s.banggo.com/pub7/images/mbshop/veoimg/Veo_mbshop_spirit_pic.png?t=20160603) 0 -372px no-repeat;
+		}
+	}
+}
+.warp{
+	width: 1200px;
+	margin: 10px auto;
+	overflow: hidden;
+	&>div{
+		float: left;
+	}
+	.typeLeft{
+		width: 180px;
+		// height: 326px;
+		//border: 1px solid #000;
+		h3{
+				border-bottom: 1px #000 solid;
+			    color: #000;
+			    padding-bottom: 10px;
+			    font: 700 15px "微软雅黑";
+		}
+		ul{
+			list-style: none;
+			li{
+				margin-top: 7px;
+				dl{
+					list-style: none;
+					display: none;
+					dt{
+						padding-left: 15px;
+						dl{
+							em{
+								    display: inline-block;
+								    cursor: pointer;
+								    width: 8px;
+								    height: 10px;
+								    margin-right: 5px;
+								    background: url(//s.banggo.com/pub7/images/mbshop/veoimg/Veo_mbshop_spirit_pic.png?t=20160603) -25px -94px no-repeat!important;
+							}
+						}
+						a{
+							font: 400 12px "微软雅黑","宋体",verdana;
+							color: #999999;
+							&:hover{
+								text-decoration: underline;
+							}
+						}
+					}
+				}
+				em{
+					display: inline-block;
+					cursor: pointer;
+					width: 8px;
+					height: 10px;
+					margin-right: 5px;
+					background: url(//s.banggo.com/pub7/images/mbshop/veoimg/Veo_mbshop_spirit_pic.png?t=20160603) -8px -92px no-repeat;
+				}
+				a{
+					font: 400 12px "微软雅黑","宋体",verdana;
+					&:hover{
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+	}
+	.typeright{
+		width: 975px;
+		margin-left: 30px;
+		box-sizing: border-box;
+		.search{
+			width: 100%;
+			//overflow: hidden;
+			border: 1px solid #CCCCCC;
+			padding: 5px;
+			.searchItem{
+			width: 100%;
+			font-family: "微软雅黑","宋体",verdana,"Helvetica Neue",Helvetica,sans-serif;
+			 font-size: 12px;
+			 position: relative;
+			 margin-top: 13px;
+			 .in{
+				 width: 49px;
+				 height: 13px;
+				 
+			 }
+			 .shaixuan{
+				 height: 55px;
+				 &>div{
+					 float: left;
+					 margin-right: 90px;
+					 position: relative;
+					 span{
+						 float: left;
+						 border: 1px #ccc solid;
+						 text-align: center;
+						
+						 
+					 }
+					 &>div{
+							position: absolute;
+							top:15px;
+							width: 550px;
+							left: -15px;
+							border:  1px #ccc solid;;
+							box-shadow: 0 0 5px #ccc;
+							z-index: 44;
+							a{
+								float: left;
+								margin-right: 100px;
+							}
+						
+					 }
+					
+				 }
+				  .xuan_list{
+					  display: none;
+				  }
+			 }
+			 
+				&>div{
+					overflow: hidden;
+					width: 818px;
+					height: 16px;
+					
+				}
+				.show_hide{
+					position: absolute;
+					width: 50px;
+					height: 17px;
+					right: 50px;
+					top: 0;
+				}
+			span{
+					width: 50px;
+				    float: left;
+				    border-right: 1px #ccc solid;
+			}
+			a{
+				    width: auto;
+				    float: left;
+				    display: block;
+				    padding: 0;
+					margin-left: 15px;
+					
+			}
+		}
+		}
+		.info{
+				width: 980px;
+			    height: 14px;
+			    float: none;
+			    display: block;
+			    margin: 0 auto;
+			    padding: 0;
+			    overflow: hidden;
+			    font: 400 12px "微软雅黑","黑体","宋体",verdana;
+				b{
+					color: red;
+				}
+		}
+		.typeNav{
+			width: 100%;
+			overflow: hidden;
+			margin-top: 15px;
+			background-color: #f0f0f0;
+			&>div{
+				float: left;
+			}
+			.left{
+				a{
+					    width: auto;
+					    height: auto;
+					    float: left;
+					    display: block;
+					    border-right: 2px #fff solid;
+					    margin: 0;
+					    padding: 10px 25px;
+				}
+				.active{
+					background: red;
+				}
+			}
+			.right{
+				text-align: center;
+				font-family: "微软雅黑","宋体",verdana,"Helvetica Neue",Helvetica,sans-serif;
+				float: left;
+				font-size: 12px;
+				text-align: center;
+				line-height: 40px;
+				padding-left: 200px;
+				&>*{
+					margin-right: 5px;
+					}
+				// input{
+				// 	display: inline-block;
+				// 	margin-top: 5px;
+				// }
+				span{
+						font-family: "微软雅黑","宋体",verdana,"Helvetica Neue",Helvetica,sans-serif;
+						float: left;
+					    font-size: 12px;
+						text-align: center;
+						line-height: 40px;
+				}
+			}
+		}
+		.goods{
+			width: 100%;
+			overflow: hidden;
+			margin-top: 15px;
+			.item{
+				overflow: hidden;
+				float: left;
+				position: relative;
+				height: 421px;
+				margin-right: 10px;
+				margin-top: 10px;
+				// clear: both;
+				ul{
+					position: absolute;
+					top: 380px;
+					li{
+						float: left;
+						width: 31px;
+						height: 31px;
+						margin-right: 10px;
+						border: 1px solid #ccc;
+						img{
+							width: 100%;
+							height: 100%;
+						}
+					}
+				}
+				&>a{
+					float: left;
+					&>img{
+						width: 230px;
+						height: 315px;
+					}
+				}
+				.item_po{
+					position: absolute;
+					top: 260px;
+					img{
+						width: 230px;
+						height: 61px;
+					}
+					.item_span{
+						position: absolute;
+						display: inline-block;
+						font-size: 16px;
+						line-height: 16px;
+						font-weight: 700;
+						color: #fff;
+						right: 5px;
+						bottom: 10px;
+						
+					}
+				}
+				.name{
+					position: absolute;
+					top: 320px;
+				
+					a{
+						display: block;
+						    font-size: 14px;
+						    color: #919191;
+					}
+				}
+				.price{
+					position: absolute;
+					top: 360px;
+					b{
+						font-size: 14px;
+						    color: #f8584f;
+						    display: inline-block;
+						    margin-right: 5px;
+						    font-weight: 800;
+					}
+					// bottom: 20px;
+				}
+			}
+			&>div{
+				float: left;
+			}
+		}
+		
+		.pages{
+			width: 100%;
+			overflow: hidden;
+			padding-left: 300px;
+			a{
+				float: left;
+				width: 20px;
+				height: 20px;
+				border: 1px solid #CCCCCC;
+				font-size: 12px;
+				margin-right: 8px;
+				text-align: center;
+				cursor: pointer;
+			}
+			.foucs{
+				border-color: red;
+				color: red;
+			}
+			.tex{
+				width: 60px;
+				// float: right;
+			}
+		}
+	}
+}

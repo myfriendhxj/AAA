@@ -1,0 +1,759 @@
+@charset 'utf-8';
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+.box {
+  width: 100%;
+}
+.box .header {
+  width: 100%;
+}
+.box .header .top {
+  height: 80px;
+  width: 100%;
+  background: red;
+  box-sizing: border-box;
+}
+.box .header .top a {
+  display: block;
+  margin: 0px 156px;
+  width: 1200px;
+  height: 80px;
+}
+.box .header .top img {
+  width: 1200px;
+  height: 80px;
+}
+.box .header .msg {
+  width: 100%;
+  height: 33px;
+  border-bottom: 1px solid #B5B5B5;
+  color: #999;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 32px;
+}
+.box .header .msg > p {
+  margin-left: 150px;
+  color: #999;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 32px;
+  float: left;
+}
+.box .header .msg > div {
+  float: left;
+  margin-left: 100px;
+}
+.box .header .msg > div > ul > li {
+  float: left;
+  margin-right: 30px;
+  position: relative;
+  cursor: pointer;
+}
+.box .header .msg > div > ul > li a {
+  color: #999;
+  font-size: 12px;
+  text-decoration: none;
+}
+.box .header .msg > div > ul > li ul {
+  display: none;
+  position: absolute;
+  top: 25px;
+  width: 75px;
+  color: #000;
+  background: white;
+  z-index: 5;
+}
+.box .header .msg > div > ul > li ul li {
+  line-height: 25px;
+}
+.box .header .msg > div > ul > li ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 12px;
+}
+.box .ser {
+  width: 1200px;
+  height: 60px;
+  margin: 20px 156px;
+}
+.box .ser > div {
+  float: left;
+}
+.box .ser .formSer {
+  position: relative;
+  width: 380px;
+  height: 34px;
+  margin-top: 10px;
+}
+.box .ser .formSer input:nth-of-type(1) {
+  position: absolute;
+  height: 24px;
+  margin-right: 8px;
+  padding: 5px 0 5px 5px;
+  float: left;
+  border: 1px solid red;
+  display: block;
+  color: #666;
+  line-height: 22px;
+  width: 290px;
+  top: 50%;
+}
+.box .ser .formSer button {
+  padding: 0 12px;
+  margin: 0;
+  width: 80px;
+  height: 38px;
+  line-height: 32px;
+  text-align: right;
+  font-family: "微软雅黑", "宋体", "verdana";
+  font-size: 14px;
+  color: #fff;
+  background: #d51819;
+  cursor: pointer;
+  position: absolute;
+  top: 47%;
+  left: 296px;
+}
+.box .ser .cloth {
+  position: relative;
+  width: 380px;
+  height: 34px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.box .ser .cloth a {
+  text-decoration: none;
+  color: #666;
+  font-size: 12px;
+}
+.box .ser .cloth span {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 12px;
+  color: #666;
+}
+.box .ser .shopBag {
+  width: 120px;
+  height: 55px;
+  padding-left: 30px;
+  float: left;
+  display: block;
+  background: url(//s.banggo.com/pub7/images/mbshop/veoimg/Veo_mbshop_spirit_pic.png?t=20160603) 0 -410px no-repeat;
+}
+.box .ser .shopBag a {
+  font: 400 14px "微软雅黑", "宋体";
+  margin-top: 27px;
+  float: left;
+  color: #000000;
+}
+.box .ser .shopBag a b {
+  color: red;
+}
+.box .shop-nav {
+  float: left;
+  width: 1200px;
+  margin: 0px 156px;
+}
+.box .shop-nav > ul {
+  list-style: none;
+  float: left;
+  margin-left: 0;
+  position: relative;
+  width: 560px;
+}
+.box .shop-nav > ul > li {
+  float: left;
+  padding-right: 40px;
+}
+.box .shop-nav > ul > li > a {
+  text-decoration: none;
+  color: #666;
+  font-size: 16px;
+  display: block;
+  line-height: 44px;
+}
+.box .shop-nav > ul > li .lis {
+  position: absolute;
+  display: none;
+  background: ;
+  overflow: hidden;
+  box-shadow: 0 0 5px #ccc;
+}
+.box .shop-nav > ul > li .lis > ul {
+  float: left;
+  margin-top: 10px;
+  overflow: hidden;
+  background: white;
+}
+.box .shop-nav > ul > li .lis > ul .ti {
+  color: red;
+}
+.box .shop-nav > ul > li .lis > ul > li {
+  margin-right: 20px;
+  float: left;
+}
+.box .shop-nav > ul > li .lis > ul > li a {
+  color: #666666;
+  display: block;
+  font-size: 13px;
+  margin-top: 15px;
+}
+.box .shop-nav .ul2 {
+  width: 640px;
+}
+.box .shop-nav .ul2 > li {
+  padding-right: 10px;
+}
+.banner {
+  width: 100%;
+  overflow: hidden;
+}
+.banner .tu {
+  height: 474px;
+}
+.banner .tu img {
+  width: 100%;
+  height: 100%;
+}
+.banner > ul {
+  list-style: none;
+  margin: 20px auto;
+  overflow: hidden;
+  width: 1300px;
+}
+.banner > ul :after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.banner > ul > li {
+  float: left;
+  width: 240px;
+  height: 110px;
+  margin-right: 15px;
+  opacity: 0.5;
+}
+.banner > ul > li img {
+  width: 100%;
+  height: 100%;
+}
+.warp {
+  width: 100%;
+  background: #f7f7f7;
+}
+.hot {
+  width: 1200px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+.hot h3 {
+  height: 92px;
+}
+.hot h3 img {
+  height: 100%;
+}
+.hot a {
+  margin-right: 10px;
+  float: left;
+}
+.hot a img {
+  width: 390px;
+  height: 240px;
+}
+.jinxuan {
+  overflow: hidden;
+  width: 1200px;
+  margin: 20px auto;
+}
+.jinxuan h3 {
+  height: 92px;
+}
+.jinxuan h3 img {
+  height: 100%;
+}
+.jinxuan .content {
+  overflow: hidden;
+}
+.jinxuan .content a {
+  margin-right: 10px;
+  float: left;
+}
+.jinxuan .content a img {
+  width: 290px;
+  height: 250px;
+}
+.todayHot {
+  width: 1200px;
+  overflow: hidden;
+  margin: 20px auto;
+}
+.todayHot .item {
+  overflow: hidden;
+  float: left;
+  position: relative;
+  height: 325px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.todayHot .item > a {
+  float: left;
+}
+.todayHot .item > a > img {
+  width: 230px;
+  height: 230px;
+}
+.todayHot .item .item_po {
+  position: absolute;
+  top: 190px;
+}
+.todayHot .item .item_po img {
+  width: 230px;
+  height: 61px;
+}
+.todayHot .item .item_po .item_span {
+  position: absolute;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #fff;
+  right: 5px;
+  bottom: 10px;
+}
+.todayHot .item .name {
+  position: absolute;
+  top: 260px;
+}
+.todayHot .item .name a {
+  display: block;
+  font-size: 14px;
+  color: #919191;
+}
+.todayHot .item .price {
+  position: absolute;
+  top: 300px;
+}
+.todayHot .item .price b {
+  font-size: 14px;
+  color: #f8584f;
+  display: inline-block;
+  margin-right: 5px;
+  font-weight: 800;
+}
+.man {
+  width: 1200px;
+  overflow: hidden;
+  margin: 20px auto;
+}
+.man h3 {
+  overflow: hidden;
+}
+.man h3 > a {
+  float: left;
+}
+.man .content {
+  overflow: hidden;
+}
+.man .item {
+  overflow: hidden;
+  float: left;
+  position: relative;
+  height: 325px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.man .item > a {
+  float: left;
+}
+.man .item > a > img {
+  width: 230px;
+  height: 230px;
+}
+.man .item .item_po {
+  position: absolute;
+  top: 190px;
+}
+.man .item .item_po img {
+  width: 230px;
+  height: 61px;
+}
+.man .item .item_po .item_span {
+  position: absolute;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #fff;
+  right: 5px;
+  bottom: 10px;
+}
+.man .item .name {
+  position: absolute;
+  top: 260px;
+}
+.man .item .name a {
+  display: block;
+  font-size: 14px;
+  color: #919191;
+}
+.man .item .price {
+  position: absolute;
+  top: 300px;
+}
+.man .item .price b {
+  font-size: 14px;
+  color: #f8584f;
+  display: inline-block;
+  margin-right: 5px;
+  font-weight: 800;
+}
+.man .logo {
+  float: left;
+  margin-right: 10px;
+  height: 324px;
+}
+.man .logo img {
+  height: 320px;
+}
+.woman {
+  width: 1200px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+.woman h3 {
+  overflow: hidden;
+}
+.woman h3 a {
+  float: left;
+}
+.woman .content {
+  overflow: hidden;
+}
+.woman .content .logo {
+  float: left;
+  margin-right: 10px;
+  height: 324px;
+}
+.woman .content .logo img {
+  height: 320px;
+}
+.woman .content .item {
+  overflow: hidden;
+  float: left;
+  position: relative;
+  height: 325px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.woman .content .item > a {
+  float: left;
+}
+.woman .content .item > a > img {
+  width: 230px;
+  height: 230px;
+}
+.woman .content .item .item_po {
+  position: absolute;
+  top: 190px;
+}
+.woman .content .item .item_po img {
+  width: 230px;
+  height: 61px;
+}
+.woman .content .item .item_po .item_span {
+  position: absolute;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #fff;
+  right: 5px;
+  bottom: 10px;
+}
+.woman .content .item .name {
+  position: absolute;
+  top: 260px;
+}
+.woman .content .item .name a {
+  display: block;
+  font-size: 14px;
+  color: #919191;
+}
+.woman .content .item .price {
+  position: absolute;
+  top: 300px;
+}
+.woman .content .item .price b {
+  font-size: 14px;
+  color: #f8584f;
+  display: inline-block;
+  margin-right: 5px;
+  font-weight: 800;
+}
+.chlid {
+  width: 1200px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+.chlid h3 {
+  overflow: hidden;
+}
+.chlid h3 a {
+  float: left;
+}
+.chlid .content {
+  overflow: hidden;
+}
+.chlid .content .logo {
+  float: left;
+  height: 324px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.chlid .content .logo a {
+  float: left;
+}
+.chlid .content .logo a img {
+  height: 320px;
+  width: 464px;
+}
+.chlid .content .item {
+  overflow: hidden;
+  float: left;
+  position: relative;
+  height: 325px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.chlid .content .item > a {
+  float: left;
+}
+.chlid .content .item > a > img {
+  width: 230px;
+  height: 230px;
+}
+.chlid .content .item .item_po {
+  position: absolute;
+  top: 190px;
+}
+.chlid .content .item .item_po img {
+  width: 230px;
+  height: 61px;
+}
+.chlid .content .item .item_po .item_span {
+  position: absolute;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #fff;
+  right: 5px;
+  bottom: 10px;
+}
+.chlid .content .item .name {
+  position: absolute;
+  top: 260px;
+}
+.chlid .content .item .name a {
+  display: block;
+  font-size: 14px;
+  color: #919191;
+}
+.chlid .content .item .price {
+  position: absolute;
+  top: 300px;
+}
+.chlid .content .item .price b {
+  font-size: 14px;
+  color: #f8584f;
+  display: inline-block;
+  margin-right: 5px;
+  font-weight: 800;
+}
+.shoe {
+  width: 1200px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+.shoe h3 {
+  overflow: hidden;
+}
+.shoe h3 a {
+  float: left;
+}
+.shoe .content {
+  overflow: hidden;
+}
+.shoe .content .logo {
+  float: left;
+  height: 324px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.shoe .content .logo a {
+  float: left;
+}
+.shoe .content .logo a img {
+  height: 320px;
+  width: 464px;
+}
+.shoe .content .item {
+  overflow: hidden;
+  float: left;
+  position: relative;
+  height: 325px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.shoe .content .item > a {
+  float: left;
+}
+.shoe .content .item > a > img {
+  width: 230px;
+  height: 230px;
+}
+.shoe .content .item .item_po {
+  position: absolute;
+  top: 190px;
+}
+.shoe .content .item .item_po img {
+  width: 230px;
+  height: 61px;
+}
+.shoe .content .item .item_po .item_span {
+  position: absolute;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #fff;
+  right: 5px;
+  bottom: 10px;
+}
+.shoe .content .item .name {
+  position: absolute;
+  top: 260px;
+}
+.shoe .content .item .name a {
+  display: block;
+  font-size: 14px;
+  color: #919191;
+}
+.shoe .content .item .price {
+  position: absolute;
+  top: 300px;
+}
+.shoe .content .item .price b {
+  font-size: 14px;
+  color: #f8584f;
+  display: inline-block;
+  margin-right: 5px;
+  font-weight: 800;
+}
+.xinxi {
+  width: 1200px;
+  margin: 20px auto;
+  overflow: hidden;
+  clear: both;
+}
+.xinxi > ul {
+  list-style: none;
+  float: left;
+}
+.xinxi > ul > li {
+  float: left;
+}
+.xinxi > div {
+  float: left;
+  width: 359px;
+  height: 242px;
+}
+.xinxi .bot ul {
+  list-style: none;
+  background: #919191;
+}
+.xinxi .bot ul li {
+  float: left;
+  width: 33%;
+  padding-top: 10px;
+}
+.nav_bot {
+  width: 100%;
+  background: url(../img/mbshop_bottom_guide.png) repeat-x;
+  overflow: hidden;
+}
+.nav_bot .bot_guide {
+  overflow: hidden;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 11px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #000;
+}
+.nav_bot .bot_guide dl {
+  width: 200px;
+  float: left;
+}
+.nav_bot .bot_guide dl dt {
+  width: auto;
+  clear: right;
+  font: 700 14px "微软雅黑", "黑体", "微软雅黑", "宋体", verdana;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  color: #231815;
+}
+.nav_bot .bot_guide dl dd {
+  width: 200px;
+  padding-top: 13px;
+}
+.nav_bot .bot_guide dl dd a {
+  font: 12px "微软雅黑", "黑体", "微软雅黑", "宋体", verdana;
+  color: #231815;
+}
+.nav_bot .copy {
+  width: 1200px;
+  overflow: hidden;
+  margin: 10px auto;
+}
+.nav_bot .copy p {
+  margin: 0 auto;
+  width: 1200px;
+  text-align: center;
+  float: none;
+  display: block;
+  font: 700 14px "微软雅黑", "黑体", "微软雅黑", "宋体", verdana, verdana;
+  color: #787878;
+}
+.nav_bot .copy ul {
+  margin: 20px auto;
+  overflow: hidden;
+  width: 460px;
+}
+.nav_bot .copy ul li {
+  float: left;
+}
+.backTop {
+  width: 55px;
+  height: auto;
+  display: block;
+  position: fixed;
+  right: 0;
+  bottom: 30px;
+}
+.backTop .batop {
+  width: 55px;
+  height: 90px;
+  background: url(//s.banggo.com/pub7/images/mbshop/veoimg/Veo_mbshop_spirit_pic.png?t=20160603) 0 -1060px no-repeat;
+  display: none;
+}
+.backTop .kefu {
+  width: 55px;
+  height: 55px;
+  background: url(//s.banggo.com/pub7/images/mbshop/common/online_service.png?t=20160603) no-repeat;
+}

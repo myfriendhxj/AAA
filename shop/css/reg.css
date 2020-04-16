@@ -1,0 +1,189 @@
+@charset 'utf-8';
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 980px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+header a {
+  float: left;
+  color: #000000;
+  width: 220px;
+  height: 100px;
+  background: url(../img/logo.jpg) no-repeat;
+}
+.reg_box {
+  width: 980px;
+  overflow: hidden;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.reg_box > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  float: left;
+  height: 26px;
+  width: 160px;
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  line-height: 26px;
+  background-position: 0 -450px;
+  background: url(https://passport.banggo.com/CASServer/themes/banggo/images/buttonSkin.png) 0 -450px no-repeat;
+}
+.reg_box .reg_warp {
+  width: 970px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+.reg_box .reg_warp > div {
+  float: left;
+}
+.reg_box .reg_warp .reg_left {
+  width: 700px;
+  padding: 6px;
+}
+.reg_box .reg_warp .reg_left .title {
+  width: 700px;
+  font-size: 14px;
+  text-indent: 20px;
+  line-height: 30px;
+  margin-left: 15px;
+  border-bottom: 1px dotted #E6E6E6;
+}
+.reg_box .reg_warp .reg_left .name {
+  margin-top: 10px;
+}
+.reg_box .reg_warp .reg_left .name label {
+  width: 120px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #666;
+  text-align: right;
+  display: inline-block;
+}
+.reg_box .reg_warp .reg_left .name .inp {
+  border: 1px solid #ABABAB;
+  width: 240px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 5px 0 0;
+  margin: 0 10px 0 0;
+  background-position: 0 -700px;
+  background-repeat: repeat-x;
+}
+.reg_box .reg_warp .reg_left .name .tips {
+  width: 305px;
+  margin-top: ;
+  display: inline-block;
+  color: #999;
+  font-size: 12px;
+}
+.reg_box .reg_warp .reg_left .name #mes1 {
+  height: 10px;
+  color: red;
+  font-size: 10px;
+  display: block;
+  margin-left: 100px;
+}
+.reg_box .reg_warp .reg_left .number {
+  margin-top: 10px;
+}
+.reg_box .reg_warp .reg_left .number label {
+  width: 120px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #666;
+  text-align: right;
+  display: inline-block;
+}
+.reg_box .reg_warp .reg_left .number .inp {
+  border: 1px solid #ABABAB;
+  width: 240px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 5px 0 0;
+  margin: 0 10px 0 0;
+  background-position: 0 -700px;
+  background-repeat: repeat-x;
+}
+.reg_box .reg_warp .reg_left .number .tips {
+  width: 305px;
+  margin-top: -2px;
+  display: inline-block;
+  color: #999;
+  font-size: 12px;
+}
+.reg_box .reg_warp .reg_left .number #mes2 {
+  height: 10px;
+  color: red;
+  font-size: 10px;
+  display: block;
+  margin-left: 100px;
+}
+.reg_box .reg_warp .reg_left .check {
+  margin-top: 10px;
+}
+.reg_box .reg_warp .reg_left .check label {
+  width: 120px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #666;
+  text-align: right;
+  display: inline-block;
+}
+.reg_box .reg_warp .reg_left .check .inp {
+  border: 1px solid #ABABAB;
+  width: 40px;
+  height: 28px;
+  line-height: 28px;
+  padding: 0 5px 0 0;
+  margin: 0 10px 0 0;
+  background-position: 0 -700px;
+  background-repeat: repeat-x;
+}
+.reg_box .reg_warp .reg_left .check .tips {
+  width: 305px;
+  margin-top: -2px;
+  display: inline-block;
+  color: #999;
+  font-size: 12px;
+}
+.reg_box .reg_warp .reg_left .check #mes2 {
+  height: 10px;
+  color: red;
+  font-size: 10px;
+  display: block;
+}
+.reg_box .reg_warp .reg_left button {
+  background-position: -226px -168px;
+  display: inline-block;
+  width: 152px;
+  height: 34px;
+  line-height: 34px;
+  cursor: pointer;
+  background-image: url(https://passport.banggo.com/CASServer/themes/banggo/images/buttons.png);
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  margin-left: 70px;
+}
+.reg_box .reg_warp .reg_right {
+  width: 200px;
+  height: 320px;
+  background: url(https://passport.banggo.com/CASServer/themes/banggo/images/banggo/bgowelcometext.png) 0 0 no-repeat;
+}
+.footer {
+  width: 980px;
+  margin: 0 auto;
+}
+.footer p {
+  width: 500px;
+  margin: 10px auto;
+  font-size: 12px;
+}

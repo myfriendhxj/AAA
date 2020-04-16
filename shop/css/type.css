@@ -1,0 +1,321 @@
+@charset 'utf-8';
+a {
+  color: #000000;
+}
+.seType {
+  width: 1200px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+.seType > span {
+  float: left;
+  margin-left: 20px;
+}
+.seType a {
+  font: 400 12px "微软雅黑", "宋体", verdana;
+}
+.seType div {
+  float: left;
+  margin-left: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+.seType div input {
+  border: none;
+  outline: none;
+  height: 20px;
+  float: left;
+}
+.seType div button {
+  width: 20px;
+  height: 20px;
+  margin-top: 3px;
+  float: left;
+  display: block;
+  border: none;
+  cursor: pointer;
+  background: url(//s.banggo.com/pub7/images/mbshop/veoimg/Veo_mbshop_spirit_pic.png?t=20160603) 0 -372px no-repeat;
+}
+.warp {
+  width: 1200px;
+  margin: 10px auto;
+  overflow: hidden;
+}
+.warp > div {
+  float: left;
+}
+.warp .typeLeft {
+  width: 180px;
+}
+.warp .typeLeft h3 {
+  border-bottom: 1px #000 solid;
+  color: #000;
+  padding-bottom: 10px;
+  font: 700 15px "微软雅黑";
+}
+.warp .typeLeft ul {
+  list-style: none;
+}
+.warp .typeLeft ul li {
+  margin-top: 7px;
+}
+.warp .typeLeft ul li dl {
+  list-style: none;
+  display: none;
+}
+.warp .typeLeft ul li dl dt {
+  padding-left: 15px;
+}
+.warp .typeLeft ul li dl dt dl em {
+  display: inline-block;
+  cursor: pointer;
+  width: 8px;
+  height: 10px;
+  margin-right: 5px;
+  background: url(//s.banggo.com/pub7/images/mbshop/veoimg/Veo_mbshop_spirit_pic.png?t=20160603) -25px -94px no-repeat !important;
+}
+.warp .typeLeft ul li dl dt a {
+  font: 400 12px "微软雅黑", "宋体", verdana;
+  color: #999999;
+}
+.warp .typeLeft ul li dl dt a:hover {
+  text-decoration: underline;
+}
+.warp .typeLeft ul li em {
+  display: inline-block;
+  cursor: pointer;
+  width: 8px;
+  height: 10px;
+  margin-right: 5px;
+  background: url(//s.banggo.com/pub7/images/mbshop/veoimg/Veo_mbshop_spirit_pic.png?t=20160603) -8px -92px no-repeat;
+}
+.warp .typeLeft ul li a {
+  font: 400 12px "微软雅黑", "宋体", verdana;
+}
+.warp .typeLeft ul li a:hover {
+  text-decoration: underline;
+}
+.warp .typeright {
+  width: 975px;
+  margin-left: 30px;
+  box-sizing: border-box;
+}
+.warp .typeright .search {
+  width: 100%;
+  border: 1px solid #CCCCCC;
+  padding: 5px;
+}
+.warp .typeright .search .searchItem {
+  width: 100%;
+  font-family: "微软雅黑", "宋体", verdana, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 12px;
+  position: relative;
+  margin-top: 13px;
+}
+.warp .typeright .search .searchItem .in {
+  width: 49px;
+  height: 13px;
+}
+.warp .typeright .search .searchItem .shaixuan {
+  height: 55px;
+}
+.warp .typeright .search .searchItem .shaixuan > div {
+  float: left;
+  margin-right: 90px;
+  position: relative;
+}
+.warp .typeright .search .searchItem .shaixuan > div span {
+  float: left;
+  border: 1px #ccc solid;
+  text-align: center;
+}
+.warp .typeright .search .searchItem .shaixuan > div > div {
+  position: absolute;
+  top: 15px;
+  width: 550px;
+  left: -15px;
+  border: 1px #ccc solid;
+  box-shadow: 0 0 5px #ccc;
+  z-index: 44;
+}
+.warp .typeright .search .searchItem .shaixuan > div > div a {
+  float: left;
+  margin-right: 100px;
+}
+.warp .typeright .search .searchItem .shaixuan .xuan_list {
+  display: none;
+}
+.warp .typeright .search .searchItem > div {
+  overflow: hidden;
+  width: 818px;
+  height: 16px;
+}
+.warp .typeright .search .searchItem .show_hide {
+  position: absolute;
+  width: 50px;
+  height: 17px;
+  right: 50px;
+  top: 0;
+}
+.warp .typeright .search .searchItem span {
+  width: 50px;
+  float: left;
+  border-right: 1px #ccc solid;
+}
+.warp .typeright .search .searchItem a {
+  width: auto;
+  float: left;
+  display: block;
+  padding: 0;
+  margin-left: 15px;
+}
+.warp .typeright .info {
+  width: 980px;
+  height: 14px;
+  float: none;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  font: 400 12px "微软雅黑", "黑体", "宋体", verdana;
+}
+.warp .typeright .info b {
+  color: red;
+}
+.warp .typeright .typeNav {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 15px;
+  background-color: #f0f0f0;
+}
+.warp .typeright .typeNav > div {
+  float: left;
+}
+.warp .typeright .typeNav .left a {
+  width: auto;
+  height: auto;
+  float: left;
+  display: block;
+  border-right: 2px #fff solid;
+  margin: 0;
+  padding: 10px 25px;
+}
+.warp .typeright .typeNav .left .active {
+  background: red;
+}
+.warp .typeright .typeNav .right {
+  font-family: "微软雅黑", "宋体", verdana, "Helvetica Neue", Helvetica, sans-serif;
+  float: left;
+  font-size: 12px;
+  text-align: center;
+  line-height: 40px;
+  padding-left: 200px;
+}
+.warp .typeright .typeNav .right > * {
+  margin-right: 5px;
+}
+.warp .typeright .typeNav .right span {
+  font-family: "微软雅黑", "宋体", verdana, "Helvetica Neue", Helvetica, sans-serif;
+  float: left;
+  font-size: 12px;
+  text-align: center;
+  line-height: 40px;
+}
+.warp .typeright .goods {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 15px;
+}
+.warp .typeright .goods .item {
+  overflow: hidden;
+  float: left;
+  position: relative;
+  height: 421px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.warp .typeright .goods .item ul {
+  position: absolute;
+  top: 380px;
+}
+.warp .typeright .goods .item ul li {
+  float: left;
+  width: 31px;
+  height: 31px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+.warp .typeright .goods .item ul li img {
+  width: 100%;
+  height: 100%;
+}
+.warp .typeright .goods .item > a {
+  float: left;
+}
+.warp .typeright .goods .item > a > img {
+  width: 230px;
+  height: 315px;
+}
+.warp .typeright .goods .item .item_po {
+  position: absolute;
+  top: 260px;
+}
+.warp .typeright .goods .item .item_po img {
+  width: 230px;
+  height: 61px;
+}
+.warp .typeright .goods .item .item_po .item_span {
+  position: absolute;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #fff;
+  right: 5px;
+  bottom: 10px;
+}
+.warp .typeright .goods .item .name {
+  position: absolute;
+  top: 320px;
+}
+.warp .typeright .goods .item .name a {
+  display: block;
+  font-size: 14px;
+  color: #919191;
+}
+.warp .typeright .goods .item .price {
+  position: absolute;
+  top: 360px;
+}
+.warp .typeright .goods .item .price b {
+  font-size: 14px;
+  color: #f8584f;
+  display: inline-block;
+  margin-right: 5px;
+  font-weight: 800;
+}
+.warp .typeright .goods > div {
+  float: left;
+}
+.warp .typeright .pages {
+  width: 100%;
+  overflow: hidden;
+  padding-left: 300px;
+}
+.warp .typeright .pages a {
+  float: left;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #CCCCCC;
+  font-size: 12px;
+  margin-right: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+.warp .typeright .pages .foucs {
+  border-color: red;
+  color: red;
+}
+.warp .typeright .pages .tex {
+  width: 60px;
+}
